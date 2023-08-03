@@ -1,0 +1,31 @@
+body{
+    background-color: #cbf4f4;
+    display:grid;
+    justify-content:center;
+}
+h1{
+    text-align: center;
+    color: #073e3c;
+}
+select{
+    padding:5px;
+}
+option{
+    background-color: blueviolet;
+}
+
+@media screen and (min-width:1200px) {
+    body{
+        background-color: #69b5d6;
+        color: #225d76;
+    }
+}
+
+@media screen and (max-width:768px){
+    body{
+        background-color: rgb(84, 172, 168);
+    }
+   select{
+    padding:10px;
+   }
+}
