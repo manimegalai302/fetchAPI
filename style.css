@@ -13,6 +13,19 @@ select{
 option{
     background-color: blueviolet;
 }
+#errormsg{
+    display: none;
+    padding: 10px;
+    border: solid 1px ;
+    margin-top: 50px;
+    border-radius: 5px;
+    background-color: #98e7d0;
+    color: rgba(169, 42, 91, 0.989);
+    font-weight:bold;
+  
+} 
+ 
+          /* laptop */
 
 @media screen and (min-width:1200px) {
     body{
@@ -20,6 +33,8 @@ option{
         color: #225d76;
     }
 }
+        
+         /* tablet */
 
 @media screen and (max-width:768px){
     body{

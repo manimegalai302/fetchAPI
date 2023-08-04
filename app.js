@@ -1,5 +1,5 @@
 function fetchAbilityName() {
-    const url='https://pokeapi.co/api/v2/ability';
+    const url='https://pokeapi.co/api/v2/ability/';
 
     return fetch(url)
     .then(res => {
@@ -15,19 +15,17 @@ function fetchAbilityName() {
      let option=document.createElement("option");
      option.innerText = item.name;
      selectedItem.appendChild(option)
-     })
+     });
 
     })
-    .catch(error => {
+    .catch( error => { 
      console.log('Error', error);
+   let err=document.getElementById("errormsg")
+   err.style.display="block"
+
+
+   return  null;
     });
+   
  }
-
-fetchAbilityName();
-
-
-
-
-
-
-
+ fetchAbilityName()
