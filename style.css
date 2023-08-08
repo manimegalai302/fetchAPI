@@ -1,27 +1,49 @@
 body{
     background-color: #cbf4f4;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.main{
     display:grid;
     justify-content:center;
+    align-items: center;
+    padding: 10px;
+    width: 500px;
 }
 h1{
     text-align: center;
     color: #073e3c;
+    
+   
 }
 select{
     padding:5px;
+    width: 500px;
+    align-items: center;
+    
+}
+.para{
+   padding:10px; 
+}
+li{
+    padding: 20px;
+    background-color: rgb(175, 221, 245);
 }
 option{
     background-color: blueviolet;
 }
 #errormsg{
     display: none;
-    padding: 10px;
+    padding: 20px;
     border: solid 1px ;
     margin-top: 50px;
     border-radius: 5px;
     background-color: #98e7d0;
     color: rgba(169, 42, 91, 0.989);
     font-weight:bold;
+    text-align: center;
   
 } 
  
